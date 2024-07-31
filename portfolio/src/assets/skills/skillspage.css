@@ -1,0 +1,80 @@
+.skill {
+  height: 180px;
+  width: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.skill img {
+  width: 80px;
+  height: auto;
+}
+.skillsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Roboto", sans-serif;
+  margin-top: 30px;
+  justify-content: center;
+}
+.skill p {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+.skillImageContainer {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skillsOuterContainer {
+  height: 95vh;
+  padding: 15px;
+}
+@media (max-width: 770px) {
+  .skillsOuterContainer {
+    overflow-y: auto;
+  }
+}
+@media (max-width: 850px) {
+  .skill img {
+    width: 70px;
+    height: auto;
+  }
+  .skill p {
+    font-size: 18px;
+  }
+  .skill {
+    height: 150px;
+    width: 120px;
+  }
+}
+@media (max-width: 600px) {
+  .skill img {
+    width: 50px;
+    height: auto;
+  }
+  .skill {
+    height: 120px;
+    width: 90px;
+  }
+}
+@media (max-width: 550px) {
+  .skillsOuterContainer h1 {
+    font-size: 35px;
+  }
+  .skillsOuterContainer {
+    height: 97vh;
+    padding: 0px;
+  }
+}
+@media (max-width: 500px) {
+  .skill p {
+    font-size: 15px;
+  }
+}
+.skillImageContainer {
+  cursor: pointer;
+}

@@ -1,0 +1,8 @@
+@media (max-width: 1040px) {
+  .ulContainerProject {
+    margin-top: 70px;
+  }
+}
+.githubSvg:hover {
+  cursor: pointer;
+}

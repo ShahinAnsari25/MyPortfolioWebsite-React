@@ -1,0 +1,78 @@
+.sidebarContainer {
+  background-color: #252525 !important;
+  font-family: "Roboto", sans-serif;
+}
+.sidebarContainer a {
+  color: white;
+}
+.linkText {
+  color: #878484 !important;
+}
+.linkText:hover {
+  color: #edf402 !important;
+}
+.linkText:hover svg {
+  fill: #edf402;
+}
+.active {
+  background-color: #3a3a3a !important;
+  color: #edf402 !important;
+  background-color: transparent !important;
+  border-bottom: 2px solid #edf402;
+  border-radius: 0px !important;
+}
+.hover-border {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.hover-border::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #edf402;
+  transition: width 0.3s ease-in-out;
+}
+
+.hover-border:hover::after {
+  width: 100%;
+}
+
+.portfolioContainer1 {
+  position: relative;
+  margin: 10px;
+  height: 57px;
+}
+.portfolioContainer {
+  color: #edf402;
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  margin-left: 10px;
+}
+.emailContainer p {
+  margin: 0px;
+  color: white;
+  font-size: 15px;
+}
+.emailContainer {
+  display: flex;
+  margin: 5px;
+  gap: 5px;
+  align-items: center;
+}
+.emailSvg {
+  fill: white !important;
+  height: 15px !important;
+  width: 15px !important;
+  display: inline;
+}
+.emailContainer {
+  border: 1px solid red;
+  width: 100%;
+  display: inline;
+}

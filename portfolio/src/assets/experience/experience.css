@@ -1,0 +1,52 @@
+.StepLabel {
+  color: white !important;
+}
+.experienceOuterContainer {
+  font-family: "Roboto", sans-serif;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.technologiesUsed {
+  margin-top: 20px;
+}
+.technologiesUsed p {
+  color: white;
+  font-size: 27px;
+  margin-bottom: 10px;
+}
+.technologiesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.technologiesContainer img {
+  height: 40px;
+  width: auto;
+}
+.outerConatinerExperience {
+  height: 95vh;
+  width: 100%;
+  overflow: hidden;
+}
+@media (max-width: 500px) {
+  .outerConatinerExperience {
+    overflow-y: auto;
+  }
+  .companyName {
+    font-size: 20px;
+  }
+  .progressBarContainer span {
+    font-size: 15px !important;
+  }
+  .experienceOuterContainer {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 550px) {
+  .outerConatinerExperience h1 {
+    font-size: 35px;
+  }
+  .outerConatinerExperience {
+    height: 97vh;
+  }
+}
